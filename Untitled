@@ -1,0 +1,12 @@
+Material evn_top(Color(0, 0, 0), Color(0.4, 0.4, 0.4),
+Color(0.3, 0.3, 0.3), 5);
+// paint the TEXTURE on materials
+unsigned long int evn_top_texture_width;
+long int evn_top_texture_height;
+unsigned char*  evn_top_rarray;
+unsigned char*  evn_top_garray;
+unsigned char*  evn_top_barray;
+
+bmp_read("./environment/top.bmp", &evn_top_texture_width, &evn_top_texture_height, &evn_top_rarray, &evn_top_garray, &evn_top_barray);
+Texture texture_env_top(true,evn_top_texture_width,evn_top_texture_height,evn_top_rarray,evn_top_garray,evn_top_barray);
+evn_top.texture = &texture_env_top;

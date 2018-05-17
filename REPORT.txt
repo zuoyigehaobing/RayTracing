@@ -1,0 +1,62 @@
+Team member  cdf_ID   Student ID
+Bin Liu       binliu   1002700133
+BingZhao Shan shanbin1	1002257988
+
+
+Overall submission:
+We finished part 1 fully as required, we generated those pictures as requested which is under result folder.The folder contains a number of subfolder which named by its feature. And each subfolder contains view from two different perspectives.
+For part 2, we choose to implement following features:
+Anti-aliasing
+Soft shadows
+Texture-mapping
+Environment mapping
+Glossy reflection
+Refraction
+Compound object containing quadratic surfaces
+
+Those features are all successfully implemented,the individual results are contained under result folder.
+
+*******Note*************
+We used Macbook to implement Assignment3 and some paramaters is different from those in Linux, the final image in Linux looks slightly different than what we got on mac.
+
+
+File structure:
+Our results is store under result directory which includes different
+pcitures result for different features.
+
+
+
+
+What we have implemented:
+
+Casting ray 
+Ray-sphere intersection
+Ray-square intersection
+Phong illumination 
+Recursive ray tracing
+Hard shadows
+Anti-aliasing
+Soft shadows
+Texture-mapping
+Glossy reflection
+Environment mapping
+Refraction
+Compound object containing quadratic surfaces
+
+
+
+Role for each member:
+
+Casting ray:        Bin Liu  BingZhao Shan
+Ray-sphere intersection:    Bin Liu  BingZhao Shan
+Ray-square intersection:    Bin Liu  BingZhao Shan
+Phong illumination:    Bin Liu  BingZhao Shan
+Recursive ray tracing:  Bin Liu  BingZhao Shan
+Hard shadows:   Bin Liu  BingZhao Shan
+Anti-aliasing:   BingZhao Shan
+Soft shadows:    Bin Liu  BingZhao Shan	
+Texture-mapping:   BingZhao Shan
+Environment mapping:    BingZhao Shan
+Refraction:    BingZhao Shan
+Glossy reflection:BingZhao Shan
+Compound object containing quadratic surfaces:  Bin Liu  BingZhao Shan
